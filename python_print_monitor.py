@@ -16,8 +16,7 @@ File = namedtuple('File', 'name path size_kb modified_date')
 files = []
 
 # declare the path to browse. In this case, it's a directory for print jobs converted to PDF
-p = Path(r'Z:\RPA9')
-#p = Path(r'Z:\RST8')
+p = Path(r'Z:\printer_1')
 
 def endPrint():
     '''
